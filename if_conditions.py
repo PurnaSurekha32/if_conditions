@@ -1,56 +1,57 @@
 
-#1. Write a program that takes an integer input from the user and checks if it is a positive number. If the number is positive, print "The number is positive."
+#1. Write a program that takes an integer input from the user and checks if it is a positive number. If the number is positive, print "The number is positive."
 
-'''a=int(input("Enter the number:"))
+a=int(input("Enter the number:"))
 if a>=0:
     print("The number is posivite")
 else:
-    print("The number is negative")'''
+    print("The number is negative")
 
 
 #2. Create a program that takes an integer input from the user and checks if it is an even number. If it is even, print "The number is even."python
 
-'''a=int(input("Enter the number: "))
+a=int(input("Enter the number: "))
 if a%2==0:
     print("The number is even")
 else:
-    print("The number is odd")'''
+    print("The number is odd")
 
 
-# 3.Create a program that asks the user for their age and determines if they are eligible to vote. Print "Eligible to vote" if they are 18 or older, otherwise print "Not eligible to vote."
+# 3.Create a program that asks the user for their age and determines if they are eligible to vote. Print "Eligible to vote" if they are 18 or older, otherwise print "Not eligible to vote."
 
-'''a=int(input("Enter your age : "))
+a=int(input("Enter your age : "))
 if a>=0 and a>=18:
     print("Eligible to vote")
 else:
-    print("Not Eligible to vote")'''
+    print("Not Eligible to vote")
 
 
 #4. Write a program that asks the user to enter a password and checks if it matches a predefined password. If the password matches, print "Access granted," otherwise print "Access denied."
 
-'''a=int(input("Enter the password : "))
+a=int(input("Enter the password : "))
 predefined=12345
 if a==predefined:
     print("Access Granted")
 else:
-    print("Access Denied")'''
+    print("Access Denied")
 
 
 #5. Write a program that takes a year as input and checks if it is a leap year. A year is a leap year if it is divisible by 4 but not by 100, unless it is also divisible by 400.
 
-'''a=int(input("Enter the year  : "))
+a=int(input("Enter the year  : "))
 if (a%4==0 and a%100!=0) or (a%400==0):
     print("This Year is Leap Year")
 else:
-    print("This is not a Leap Year")'''
+    print("This is not a Leap Year")
 
-#Write a program that takes a month as input (1-12) and prints the season it falls in:
+#6. Write a program that takes a month as input (1-12) and prints the season it falls in:
 #December, January, February: Winter
 #March, April, May: Spring
 #June, July, August: Summer
-#September, October, November: Fall
+#September, October, November: Fall
 
-'''a = int(input("Enter a month number (1-12): "))
+
+a = int(input("Enter a month number (1-12): "))
 
 if a < 1 or a > 12:
     print("Please enter a valid month number between 1 and 12.")
@@ -62,12 +63,12 @@ else:
     elif a == 6 or a == 7 or a == 8:
         print("Summer")
     else:
-        print("Fall")'''
+        print("Fall")
 
 
 #7. Create a program that takes three integers as input and determines the largest number. If two or more numbers are equal and the largest, indicate this in the output.
 
-'''a = int(input("Enter the first number: "))
+a = int(input("Enter the first number: "))
 b = int(input("Enter the second number: "))
 c = int(input("Enter the third number: "))
 
@@ -86,10 +87,10 @@ else:
     elif a == c and a > b:
         print(f"The largest numbers are a: {a} and c: {c}, which are equal.")
     elif b == c and b > a:
-        print(f"The largest numbers are b: {b} and c: {c}, which are equal.")'''
+        print(f"The largest numbers are b: {b} and c: {c}, which are equal.")
 
 
-#Write a program that takes an integer input from the user and checks if it is within the range of 1 to 100. If it is, then check if it is even or odd. Print appropriate messages for each condition.
+#8. Write a program that takes an integer input from the user and checks if it is within the range of 1 to 100. If it is, then check if it is even or odd. Print appropriate messages for each condition.
 
 a = int(input("Enter a number: "))
 
