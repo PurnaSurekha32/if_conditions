@@ -1,7 +1,7 @@
 
 # Write a program that prints an action based on the traffic light colour
 
-'''a=input("Enter the color: ")
+a=input("Enter the color: ")
 if a=="RED" or a=="red":
     print("Stop")
 elif a=="YELLOW" or a=="yellow":
@@ -9,11 +9,11 @@ elif a=="YELLOW" or a=="yellow":
 elif a=="GREEN" or a=="green":
     print("Go")
 else:
-    print("Valid Colour")'''
+    print("Valid Colour")
 
 #Write a program to classifies a person's Body Mass Index(BMI) based on their BMI value
 
-'''a=float(input("Enter your BMI : "))
+a=float(input("Enter your BMI : "))
 if a<18.5:
     print("Under Weight")
 elif a>=18.5 and a<=24.9:
@@ -21,26 +21,26 @@ elif a>=18.5 and a<=24.9:
 elif a>=25 and a<=29.9:
     print("Over Weight")
 elif a>30:
-    print("Obese")'''
+    print("Obese")
 
 
 #Write a program that takes a string input from the user and chacks if it's length is greater than 5 char.
 
-'''a=input("Enter a String : ")
+a=input("Enter a String : ")
 b=len(a)
 if b>5:
-    print("The string is more that 5 character")'''
+    print("The string is more that 5 character")
     
 
 # Write a program that takes a person's age as input and prints their ticket price
 
-'''a=int(input("Enter your age : "))
+a=int(input("Enter your age : "))
 if a<3:
     print("Free")
 elif a>=3 and a<=12:
     print("$10")
 else:
-    print("$15")'''
+    print("$15")
 
 
 # Write a Python program that takes a student's score as input and prints out their corresponding grade based on the following criteria:
@@ -50,7 +50,7 @@ else:
 #60-69: D
 #Below 60: F
 
-'''a=int(input("Enter the score :"))
+a=int(input("Enter the score :"))
 if a>=90:
     print("Grade A")
 elif a>=80 and a<=89:
@@ -60,12 +60,12 @@ elif a>=70 and a<=79:
 elif a>=60 and a<=69:
     print("Grade D")
 else:
-    print("Grade F")'''
+    print("Grade F")
 
 
 # Write a Python program that takes a single character as input and prints out whether it is a vowel or a consonant.
 
-'''a=input("Enter a Letter :")
+a=input("Enter a Letter :")
 if a=="a" or a=="A":
     print("Vowel")
 elif a=="e" or a=="E":
@@ -77,7 +77,7 @@ elif a=="O" or a=="o":
 elif a=="U" or a=="u":
     print("Vowel")
 else:
-    print("Not a Vowel")'''
+    print("Not a Vowel")
 
 
 #Write a program that asks for an applicant's monthly income and credit score. First, check if the monthly income is above $3000. If it is, then check if the credit score is above 650. Print appropriate messages for each condition.
@@ -93,13 +93,6 @@ else:
     print("Loan Not Approve")
 
 
-#Write a program that takes a year as input and checks if it is a leap year. A year is a leap year if it is divisible by 4 but not by 100, unless it is also divisible by 400.
-
-'''a=int(input("Enter the year  : "))
-if (a%4==0 and a%100!=0)or (a%400==0):
-    print("This Year is Leap Year")
-else:
-    print("This is not a Leap Year")'''
 
 
 
